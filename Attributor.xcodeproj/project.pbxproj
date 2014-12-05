@@ -81,8 +81,6 @@
 		61D78D481A317C41009566F4 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				61D78D4D1A317C41009566F4 /* AppDelegate.h */,
-				61D78D4E1A317C41009566F4 /* AppDelegate.m */,
 				61D78D501A317C41009566F4 /* ViewController.h */,
 				61D78D511A317C41009566F4 /* ViewController.m */,
 				61D78D531A317C41009566F4 /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		61D78D491A317C41009566F4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61D78D4D1A317C41009566F4 /* AppDelegate.h */,
+				61D78D4E1A317C41009566F4 /* AppDelegate.m */,
 				61D78D4A1A317C41009566F4 /* Info.plist */,
 				61D78D4B1A317C41009566F4 /* main.m */,
 			);
@@ -344,8 +344,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -354,8 +356,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Attributor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
