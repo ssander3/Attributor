@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610BC7F41A3D240A00CA043D /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610BC7F31A3D240A00CA043D /* TextStatsViewController.m */; };
 		61D78D4C1A317C41009566F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D78D4B1A317C41009566F4 /* main.m */; };
 		61D78D4F1A317C41009566F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D78D4E1A317C41009566F4 /* AppDelegate.m */; };
 		61D78D521A317C41009566F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D78D511A317C41009566F4 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610BC7F21A3D240A00CA043D /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		610BC7F31A3D240A00CA043D /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		61D78D461A317C41009566F4 /* Attributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D78D4A1A317C41009566F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61D78D4B1A317C41009566F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				61D78D501A317C41009566F4 /* ViewController.h */,
 				61D78D511A317C41009566F4 /* ViewController.m */,
 				61D78D531A317C41009566F4 /* Main.storyboard */,
+				610BC7F21A3D240A00CA043D /* TextStatsViewController.h */,
+				610BC7F31A3D240A00CA043D /* TextStatsViewController.m */,
 				61D78D561A317C41009566F4 /* Images.xcassets */,
 				61D78D581A317C41009566F4 /* LaunchScreen.xib */,
 				61D78D491A317C41009566F4 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				61D78D521A317C41009566F4 /* ViewController.m in Sources */,
 				61D78D4F1A317C41009566F4 /* AppDelegate.m in Sources */,
 				61D78D4C1A317C41009566F4 /* main.m in Sources */,
+				610BC7F41A3D240A00CA043D /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -355,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Attributor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -416,6 +424,7 @@
 				61D78D6B1A317C41009566F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61D78D6C1A317C41009566F4 /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				61D78D6E1A317C41009566F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
