@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4Gq-Ah-aJd">
     <dependencies>
-        <deployment identifier="iOS"/>
+        <deployment version="2048" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--CS193p Rocks!-->
@@ -17,75 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IlS-49-OHJ">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81a-lt-I7g">
-                                <rect key="frame" x="16" y="686" width="49" height="30"/>
-                                <state key="normal" title="Outline">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bV0-Oy-vhw">
-                                <rect key="frame" x="308" y="686" width="90" height="30"/>
-                                <state key="normal" title="Unoutline">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="agA-MG-4nt">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QkS-3X-wsg">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1o-p3-Qnq">
-                                <rect key="frame" x="16" y="614" width="64" height="64"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ava-MY-5AE">
-                                <rect key="frame" x="120" y="614" width="64" height="64"/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHw-al-xOz">
-                                <rect key="frame" x="334" y="614" width="64" height="64"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8C-zr-3N5">
-                                <rect key="frame" x="230" y="614" width="64" height="64"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGc-uZ-vBc">
-                                <rect key="frame" x="16" y="518" width="58" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Outline">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="outlineBodySelection:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Bl-7X-jya"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ar-Oc-U4W">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ar-Oc-U4W">
                                 <rect key="frame" x="238" y="518" width="66" height="30"/>
                                 <state key="normal" title="Unoutline">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,9 +28,15 @@
                                     <action selector="unoutlineBodySelection:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y42-Ll-Cjx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLN-Q8-AnX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLN-Q8-AnX">
                                 <rect key="frame" x="16" y="446" width="64" height="64"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Leb-YX-p7w"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="RV9-sv-dhh"/>
+                                    <constraint firstAttribute="width" constant="64" id="SPN-6X-QO6"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="coq-i1-35Y"/>
+                                </constraints>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -104,9 +44,14 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroudOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fQ2-1x-46V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqi-pR-Ldw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqi-pR-Ldw">
                                 <rect key="frame" x="88" y="446" width="64" height="64"/>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="8P0-p3-esB"/>
+                                    <constraint firstAttribute="height" constant="64" id="Wd9-Qj-iic"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="gfn-i6-yGR"/>
+                                </constraints>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -114,9 +59,14 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroudOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7bW-gR-RNz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLO-Wh-88i">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLO-Wh-88i">
                                 <rect key="frame" x="168" y="446" width="64" height="64"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="ArL-nB-Di8"/>
+                                    <constraint firstAttribute="height" constant="64" id="pP5-2b-DfX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="zgn-Xa-FM1"/>
+                                </constraints>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -124,9 +74,15 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroudOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JOs-Dt-mgo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2H-OG-7ZP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2H-OG-7ZP">
                                 <rect key="frame" x="240" y="446" width="64" height="64"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="Brj-dN-hq2"/>
+                                    <constraint firstAttribute="width" constant="64" id="M7G-fp-Iy1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="M80-ig-k5B"/>
+                                    <constraint firstAttribute="height" constant="64" id="OY1-QN-tgs"/>
+                                </constraints>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -134,21 +90,68 @@
                                     <action selector="changeBodySelectionColorToMatchBackgroudOfButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Zvw-MX-aIQ"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2j-Yw-4Cy">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em0-PD-A9t">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Em0-PD-A9t">
                                 <rect key="frame" x="16" y="72" width="288" height="366"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGc-uZ-vBc">
+                                <rect key="frame" x="16" y="518" width="58" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="mk9-zi-qHc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Outline">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="outlineBodySelection:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Bl-7X-jya"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="trailing" secondItem="Em0-PD-A9t" secondAttribute="trailing" id="10W-Gd-pei"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="leading" secondItem="Aqi-pR-Ldw" secondAttribute="trailing" constant="16" id="1oc-J2-4uh"/>
+                            <constraint firstItem="RLN-Q8-AnX" firstAttribute="top" secondItem="Em0-PD-A9t" secondAttribute="bottom" constant="8" symbolic="YES" id="3qA-6f-bjF"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="bottom" secondItem="uLO-Wh-88i" secondAttribute="bottom" id="5ao-rV-vEm"/>
+                            <constraint firstItem="VGc-uZ-vBc" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="6or-K1-kh7"/>
+                            <constraint firstItem="1Ar-Oc-U4W" firstAttribute="top" secondItem="VGc-uZ-vBc" secondAttribute="top" id="8Nm-OW-l1X"/>
+                            <constraint firstAttribute="bottom" secondItem="VGc-uZ-vBc" secondAttribute="bottom" constant="20" symbolic="YES" id="9fP-41-esw"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="height" secondItem="Aqi-pR-Ldw" secondAttribute="height" id="Eyu-Tc-W5U"/>
+                            <constraint firstItem="Aqi-pR-Ldw" firstAttribute="leading" secondItem="RLN-Q8-AnX" secondAttribute="trailing" constant="8" symbolic="YES" id="JMk-3H-uu1"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="width" secondItem="uLO-Wh-88i" secondAttribute="width" id="KkN-Sc-MmS"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="leading" secondItem="uLO-Wh-88i" secondAttribute="trailing" constant="8" symbolic="YES" id="KvN-b9-MJk"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="baseline" secondItem="RLN-Q8-AnX" secondAttribute="baseline" id="MJa-D5-DpI"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="top" secondItem="V2H-OG-7ZP" secondAttribute="top" id="OLj-po-vsk"/>
+                            <constraint firstItem="RLN-Q8-AnX" firstAttribute="firstBaseline" secondItem="Aqi-pR-Ldw" secondAttribute="firstBaseline" id="SzH-df-vEO"/>
+                            <constraint firstItem="RLN-Q8-AnX" firstAttribute="baseline" secondItem="V2H-OG-7ZP" secondAttribute="baseline" id="VRF-PE-h88"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="height" secondItem="uLO-Wh-88i" secondAttribute="height" id="b6L-BT-XKI"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="width" secondItem="Aqi-pR-Ldw" secondAttribute="width" id="bKD-IY-CJ1"/>
+                            <constraint firstItem="Em0-PD-A9t" firstAttribute="leading" secondItem="RLN-Q8-AnX" secondAttribute="leading" id="bNN-aT-usg"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="baseline" secondItem="Aqi-pR-Ldw" secondAttribute="baseline" id="f5N-3o-DGb"/>
+                            <constraint firstItem="RLN-Q8-AnX" firstAttribute="top" secondItem="Aqi-pR-Ldw" secondAttribute="top" id="fbQ-EG-xiC"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="firstBaseline" secondItem="RLN-Q8-AnX" secondAttribute="firstBaseline" id="hXW-4h-0Nq"/>
+                            <constraint firstItem="VGc-uZ-vBc" firstAttribute="top" secondItem="RLN-Q8-AnX" secondAttribute="bottom" constant="8" symbolic="YES" id="j0R-UT-vhB"/>
+                            <constraint firstItem="Aqi-pR-Ldw" firstAttribute="top" secondItem="uLO-Wh-88i" secondAttribute="top" id="j1j-Bf-mru"/>
+                            <constraint firstItem="VGc-uZ-vBc" firstAttribute="leading" secondItem="RLN-Q8-AnX" secondAttribute="leading" id="jhq-sV-lhh"/>
+                            <constraint firstItem="Aqi-pR-Ldw" firstAttribute="bottom" secondItem="RLN-Q8-AnX" secondAttribute="bottom" id="mBC-KW-fr1"/>
+                            <constraint firstItem="RLN-Q8-AnX" firstAttribute="firstBaseline" secondItem="uLO-Wh-88i" secondAttribute="firstBaseline" id="mXi-hU-WBr"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="height" secondItem="RLN-Q8-AnX" secondAttribute="height" id="mug-zf-iJH"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="width" secondItem="RLN-Q8-AnX" secondAttribute="width" id="oYn-4m-bEf"/>
+                            <constraint firstItem="Em0-PD-A9t" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="pZK-kE-6j4"/>
+                            <constraint firstItem="Aqi-pR-Ldw" firstAttribute="baseline" secondItem="RLN-Q8-AnX" secondAttribute="baseline" id="sa0-sj-h2f"/>
+                            <constraint firstItem="1Ar-Oc-U4W" firstAttribute="top" secondItem="V2H-OG-7ZP" secondAttribute="bottom" constant="8" symbolic="YES" id="t5C-Nf-7TJ"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="firstBaseline" secondItem="Aqi-pR-Ldw" secondAttribute="firstBaseline" id="tIG-6N-n8h"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="firstBaseline" secondItem="V2H-OG-7ZP" secondAttribute="firstBaseline" id="tOU-r2-0h4"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="baseline" secondItem="V2H-OG-7ZP" secondAttribute="baseline" id="vTi-W7-LTd"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="trailing" secondItem="1Ar-Oc-U4W" secondAttribute="trailing" id="wCn-jc-tYz"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="wZl-RH-Muq"/>
+                            <constraint firstItem="uLO-Wh-88i" firstAttribute="baseline" secondItem="Aqi-pR-Ldw" secondAttribute="baseline" id="yJq-st-KV3"/>
+                            <constraint firstItem="V2H-OG-7ZP" firstAttribute="firstBaseline" secondItem="Aqi-pR-Ldw" secondAttribute="firstBaseline" id="zLR-74-b3m"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CS193p Rocks!" id="ktG-Hf-cHa">
                         <barButtonItem key="rightBarButtonItem" title="Stats" id="uOK-PQ-6Dv">
@@ -157,6 +160,8 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="body" destination="Em0-PD-A9t" id="jLj-Nq-ON6"/>
                         <outlet property="outlineButton" destination="VGc-uZ-vBc" id="abm-aU-tLT"/>
